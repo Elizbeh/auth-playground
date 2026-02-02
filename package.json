@@ -1,0 +1,22 @@
+{
+  "name": "auth-playground",
+  "version": "1.0.0",
+  "description": "Learning authentication step by step: sessions and JWT",
+  "main": "server.sessions.js",
+  "type": "module",
+  "scripts": {
+    "sessions": "node server.sessions.js",
+    "jwt": "node server.jwt.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3"
+  }
+}
